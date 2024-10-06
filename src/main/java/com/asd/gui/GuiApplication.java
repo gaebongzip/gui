@@ -19,7 +19,7 @@ import java.awt.*;
 public class GuiApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(GuiApplication.class, args);
+		SpringApplication.run(GuiApplication.class, args);
 		/*
 		ConfigurableApplicationContext ctx =  new SpringApplicationBuilder(SwingApp.class)
 			.web(WebApplicationType.NONE)

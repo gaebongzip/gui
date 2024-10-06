@@ -14,7 +14,12 @@ public class TestEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
-    private String name;
+    private Long id;
+    private String title;
+    private String content;
+    private String regDt;
+    private String regId;
+    private String modDt;
+    private String modId;
 
 }
